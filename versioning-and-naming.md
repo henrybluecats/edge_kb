@@ -13,9 +13,9 @@ Here I define the version  major strings for all firmware stacks:
  |BC51X LTE LE Stack - TEST | 0.16.N |
  |BC51X LE Stack | 0.7.N |
  |BC51X LE Stack - TEST | 0.17.N |
- |BC51X Legacy Stack | 0.4.X |
+ |BC51X Legacy Stack | 0.4.N |
  
- * N,X = deximal(FWUID)
+ * N = deximal number of FWUID
  
  ## For example
  FWUID is `0x31`, then the firmware on `BC51X Stack` is `0.5.49`. So the last part in the version string is alway increasing along with FWUID whatever the middle part of the version string is. 
