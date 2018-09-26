@@ -1,7 +1,8 @@
  # Versioning and naming
 
 For the purpose of distinguishing versions from each other by reading the version string,
-Here I define the version  major string for all firmware stacks:
+Here I define the version  major strings for all firmware stacks:
+
  | Firmware Stack | Version major string |
  |---------------|-----------------|
  |BC51X AC Stack| merge to BC51X Stack|
