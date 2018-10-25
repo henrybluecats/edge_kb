@@ -17,7 +17,7 @@ The short answer is `score` depends on the `rssi` of the beacon. Basicly it is c
 score=pow(10, (127-rssi)/20)
 ```
 
-I plot the curve here (from -107 to -47):
+I plot the curve here (from -107 to -47), download the original Excel Sheet [here](pics/rssi.xlsx):
 
 ![loc_engine2.png](pics/loc_engine2.png)
 
