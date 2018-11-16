@@ -19,11 +19,11 @@ cd ~/devhome
 
 # Download BlueCats Luci(which is a private repo)
 ```
-git clone -b core-forwards https://github.com/bluecats/luci-bluecats.git
+git clone -b dev https://github.com/bluecats/luci-bluecats.git
 ```
 
 # Download prebuilt SDK
-Once you are on branch `core-forwards`, you'll see the SDK download link in `README.md`, now download it into `${WORK_DIR}` and unzip
+Once you are on branch `dev` of repo `luci-bluecats.git`, you'll see the SDK download link in `README.md`, now download it into `${WORK_DIR}` and unzip
 ```
 tar -zxvf sdk_cc.tar.bz2
 ```
