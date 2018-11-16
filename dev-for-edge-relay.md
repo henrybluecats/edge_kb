@@ -119,7 +119,7 @@ Once flash finished or after 3 minutes, reopen `http://192.168.8.1` to check the
 ```
 OpenWrt Chaos Calmer 15.05.1 r48532 / BlueCats Edge-0.16.48 LuCI core-forwards branch (git-18.269.42020-7ff99c3)
 ```
-Please notice that the last segment(`7ff99c3`) in the above version string is the git commit hash which should be same with the git HEAD of the branch of your luci code `luci-bluecats`
+Please notice that the last segment(`7ff99c3`) in the version string above is the git commit hash which should be same with the git HEAD of the branch of your luci code `luci-bluecats` or the git tag.
 
 # Upload fireware to the AnimalControl
  - Make sure the firmware's fwUID is matched with the one displayed in `Add firmware` screen.
@@ -128,5 +128,5 @@ Please notice that the last segment(`7ff99c3`) in the above version string is th
  
  # Verify md5 sum
   - Download the bin file from AnimalControl
-  - Run `md5 0.5.8.bin` and compare the output with the md5 sum in `Description`
+  - Run `md5 0.5.8.bin` on MacOS or `md5sum 0.5.8.bin` on Ubuntu and compare the output with the md5 sum in `Description`
 
